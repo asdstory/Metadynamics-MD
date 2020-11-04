@@ -11,5 +11,16 @@ Subscribed Access
 
 
 Abstract
+
 Abstract Image
-Enhanced sampling techniques represent a versatile approach to account for rare conformational transitions in biomolecules. A particularly promising strategy is to combine massive parallel computing of short molecular dynamics (MD) trajectories (to sample the free energy landscape of the system) with Markov state modeling (to rebuild the kinetics from the sampled data). To obtain well-distributed initial structures for the short trajectories, it is proposed to employ metadynamics MD, which quickly sweeps through the entire free energy landscape of interest. Being only used to generate initial conformations, the implementation of metadynamics can be simple and fast. The conformational dynamics of helical peptide Aib9 is adopted to discuss various technical issues of the approach, including metadynamics settings, minimal number and length of short MD trajectories, and the validation of the resulting Markov models. Using metadynamics to launch some thousands of nanosecond trajectories, several Markov state models are constructed that reveal that previous unbiased MD simulations of in total 16 μs length cannot provide correct equilibrium populations or qualitative features of the pathway distribution of the short peptide.
+
+Enhanced sampling techniques represent a versatile approach to account for rare conformational transitions in biomolecules. 
+A particularly promising strategy is to combine massive parallel computing of short molecular dynamics (MD) trajectories (to 
+sample the free energy landscape of the system) with Markov state modeling (to rebuild the kinetics from the sampled data). 
+To obtain well-distributed initial structures for the short trajectories, it is proposed to employ metadynamics MD, which
+quickly sweeps through the entire free energy landscape of interest. Being only used to generate initial conformations, the
+implementation of metadynamics can be simple and fast. The conformational dynamics of helical peptide Aib9 is adopted to 
+discuss various technical issues of the approach, including metadynamics settings, minimal number and length of short MD 
+trajectories, and the validation of the resulting Markov models. Using metadynamics to launch some thousands of nanosecond 
+trajectories, several Markov state models are constructed that reveal that previous unbiased MD simulations of in total 16 μs 
+length cannot provide correct equilibrium populations or qualitative features of the pathway distribution of the short peptide.
